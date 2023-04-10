@@ -1,0 +1,3 @@
+# Java-Book-Indexer
+a program in Java which will read the pages of a book and create an index of words giving the list of pages on which each word is present.
+The program uses the readExcludeWords method to read the common words from the exclude-words.txt file and store them in a set. It then uses the buildIndex method to read the pages from the specified files, split them into words, and exclude the common words. For each non-excluded word, it adds the page number to a set associated with the word in a map. Finally, the program uses the writeIndex method to write the word index to a file in the specified format. The words are sorted in alphabetical order before writing them to the file.
